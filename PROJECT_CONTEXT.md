@@ -1,46 +1,50 @@
 # NYT Spelling Bee helper
 
-Prepared 2026-11-09 from Middletown source inspection. Prepared from the approved Middletown backup plan; consult Git refs and the local verification report for publication status.
+Last reviewed: 2026-11-09, Middletown MacBook.
 
 ## Purpose
 
 Find candidate words under Spelling Bee letter constraints.
 
-## Architecture and entry points
+## Architecture
 
 Python helper with a word list and lightweight requirements.
 
-## Repository and version identity
+## Canonical repository and backup state
 
-Canonical destination: https://github.com/leofari/nyt-spelling-bee-helper-project (public).
+https://github.com/leofari/nyt-spelling-bee-helper-project — **public**. Reuse this repository; do not create another copy on the second Mac. Primary branch: `main`.
 
-Preferred source/version: Existing GitHub main.
+The approved Middletown source/context backup was pushed and verified. Its initial verified primary tip before this documentation refresh was `69434a9d94be3addaf03ef33218423fa77abb829`. Use `git rev-parse HEAD` for the current tip. Existing Git history and remote branches were preserved.
 
-All available local project source/support files match GitHub.
+## Version evidence
 
 The local Python helper, requirements.txt, words_alpha.txt and .gitignore match GitHub blob hashes exactly at 988b6d0d13acd7db5268e9e6daad1b84e7e6fe7d. GitHub additionally has README.md.
 
-## Setup and validation
+## Preserved alternate versions
 
-Read the selected version's README, dependency lockfiles and existing AI instructions first. Restore the declared environment; do not infer commands or credentials from another project. Consult package.json scripts, pyproject.toml or existing test documentation for exact commands. No application tests were run in this backup discovery; passing file/archive integrity checks does not establish that the application works.
+- No additional source archive branch was needed.
 
-Machine-specific paths must be documented as configurable inputs. Never run deployment, mail sending, application submission, vault modification, or paid API calls as a backup check.
+Archive branches preserve historical/alternate states and are not automatically merged. Non-Git snapshot roots do not imply shared chronological Git ancestry. Before developing on another Mac, fetch all branches and inspect the archive provenance and manifests.
 
-## Current constraints and next work
+## Setup and checks
+
+Read README.md, existing AI instructions, dependency declarations and lockfiles before installing or running. Exact package scripts inspected during discovery appear below where available. Machine-specific paths in the original scripts are known portability constraints, not a guarantee that those paths exist on another Mac. Do not replace private data/credentials with guesses.
+
+Backup checks verified Git ancestry, remote branch hashes, captured source-file bytes, source exclusions, and secret-scan findings. Application regression/integration tests were not run during backup. The sanitized quote-builder JavaScript/Python passed syntax checks. No application submission, mail sending, deployment or vault modification was performed as a backup test.
+
+## Next development step
 
 Review existing README and validate against a small known letter set before changes.
 
-No duplicate source commit, branch or repository. Add requested handoff documentation only.
-
-## Private state and excluded material
+## Private state and deliberate exclusions
 
 Exclude unrelated Downloads data; existing repository is PUBLIC.
 
-Conversation transcripts are stored only in the separate local history archive. Do not add them to this repository.
+Complete Codex transcripts stay in the separate local history ZIP and must never enter this repository. Original private inputs remain on the source Mac. The eight unconfirmed coursework/tutorial candidates are outside this approved backup set.
 
-## Maintaining this context
+## Handoff maintenance
 
-After meaningful development, update this file when architecture, setup, dependencies, behavior, decisions or constraints change. Update HANDOFF.md at the end of every development session, including interrupted work. Keep facts concise and distinguish verified behavior from plans and assumptions. See AGENTS.md.
+At the start of development, read PROJECT_CONTEXT.md, HANDOFF.md and AGENTS.md plus applicable nested instructions. After each meaningful session, update HANDOFF.md with actual branch/commit, changes, checks/results, outstanding issues, uncommitted work and next steps. Update this context when architecture, setup, dependencies, data contracts or decisions change. Keep existing README/CLAUDE.md/progress documents consistent. Do not paste transcripts or credentials.
 
 ## Inspected environment declarations
 

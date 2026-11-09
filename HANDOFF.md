@@ -1,29 +1,34 @@
-# Development handoff — NYT Spelling Bee helper
+# Current development handoff
 
-Last reviewed: 2026-11-09, Middletown MacBook.
+Reviewed: 2026-11-09 — Middletown MacBook.
 
-## Starting point
+## Current state
 
-Existing GitHub main
+The approved source/context backup is on https://github.com/leofari/nyt-spelling-bee-helper-project (public). Start from `main`; fetch all remote branches before comparing with another Mac. Initial verified main before this documentation refresh: `69434a9d94be3addaf03ef33218423fa77abb829`. Current commit: inspect `git rev-parse HEAD`.
 
-Status: All available local project source/support files match GitHub. The backup plan was approved on 2026-11-09. This file describes the staged version; Git refs and the external verification report establish publication status.
+Find candidate words under Spelling Bee letter constraints.
 
-## What is known
+## Completed in this backup
 
-The local Python helper, requirements.txt, words_alpha.txt and .gitignore match GitHub blob hashes exactly at 988b6d0d13acd7db5268e9e6daad1b84e7e6fe7d. GitHub additionally has README.md.
+- Preserved existing history and meaningful alternate versions without force-pushing or deleting branches.
+- Added project context, source provenance and an additive AGENTS.md handoff-maintenance instruction.
+- Kept Codex transcripts, credentials and private runtime data out of the upload.
+- Verified source manifests and remote commit identities; application behavior was not newly regression-tested.
 
-## Verification
+## Alternate versions
 
-File hashes and selected version differences inspected. Application tests: not run during backup discovery. Remote histories must be fetched and audited again immediately before any push.
+- No additional source archive branch was needed.
 
-## Next action
+## Next concrete step
 
 Review existing README and validate against a small known letter set before changes.
 
-## Preservation
+## Constraints
 
-No duplicate source commit, branch or repository. Add requested handoff documentation only.
+Exclude unrelated Downloads data; existing repository is PUBLIC.
 
-## After the next development session
+Original source working trees were not edited by the backup. Do not assume a working deployment or reproduce a private-data environment from the source snapshot alone.
 
-Replace this current-state note with the actual branch/commit, concise changes, checks run and results, remaining defects, uncommitted work, decisions and next steps. Record limitations honestly. Update PROJECT_CONTEXT.md and existing project progress docs where relevant. Do not paste chat logs, credentials, job records or personal source documents.
+## Update after development
+
+Replace this current-state note with actual branch/commit, changes, checks and results, known issues, uncommitted work, decisions and next steps. Update PROJECT_CONTEXT.md when setup or architecture changes. State what remains unverified. Do not commit chat logs, credentials or unrelated personal data.
